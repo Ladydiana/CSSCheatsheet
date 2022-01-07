@@ -64,11 +64,30 @@ button:hover {
 h1 {
   color: #ffffff;
 }
+
+h2 {
+  color: #f0abcb;
+}
+
+h3 {
+  color: rgba(100, 200, 100, 0.5);
+}
+
+h4 {
+  color: violet;
+}
 ```
 
 ### Background color
 ```css
 .header {
   background: grey;
+}
+```
+
+### Gradient
+```css
+.header {
+  background: linear-gradient(#ffffff, #f0abcb);
 }
 ```
