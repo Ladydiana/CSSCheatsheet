@@ -40,3 +40,11 @@ h2 {
 }
 
 ```
+
+### ID
+```css
+#subscribe-button {
+  color: blue;
+  border: white 1px solid;
+}
+```
