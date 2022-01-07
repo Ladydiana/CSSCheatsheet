@@ -48,3 +48,10 @@ h2 {
   border: white 1px solid;
 }
 ```
+
+### Pseudo-class
+```css
+button:hover {
+  color: grey;
+}
+```
