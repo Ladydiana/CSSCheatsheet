@@ -50,6 +50,7 @@ h2 {
 ```
 
 ### Pseudo-class
+/* All buttons on hovering */
 ```css
 button:hover {
   color: grey;
