@@ -26,3 +26,17 @@ form.text1.size1 {
 }
 
 ```
+
+### Element
+```css
+a {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  color: blue;
+}
+
+```
