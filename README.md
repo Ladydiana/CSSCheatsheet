@@ -56,3 +56,12 @@ button:hover {
   color: grey;
 }
 ```
+
+# Colors
+
+### Font color
+```css
+h1 {
+  color: #ffffff;
+}
+```
