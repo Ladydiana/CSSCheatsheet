@@ -91,3 +91,15 @@ h4 {
   background: linear-gradient(#ffffff, #f0abcb);
 }
 ```
+
+# Text Styles
+
+###
+```css
+h1 {
+	text-align: center; /* left / right / center / justify / initial / inherit */
+	text-transform: uppercase; /* none / capitalize / uppercase/ lowercase / initial / inherit */
+	text-decoration: overline; /* none / underline / line-through / overline / inherit */
+}
+}
+```
