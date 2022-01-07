@@ -65,3 +65,10 @@ h1 {
   color: #ffffff;
 }
 ```
+
+### Background color
+```css
+.header {
+  background: grey;
+}
+```
