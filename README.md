@@ -126,5 +126,13 @@ body {
 	width: 75%; /* auto / % / length (px/em) / max-content / min-content / fit-content / inherit / initial / revert / unset */
 }
 
+```
 
+# List
+```css
+ul {
+	list-style: georgian inside url('/media/examples/rocket.svg');
+	padding: 0;
+	margin: 0;
+}
 ```
