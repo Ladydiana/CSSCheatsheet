@@ -1,6 +1,6 @@
 # CSSCheatsheet
 
-
+Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
 
 --------------------------------
 
@@ -109,4 +109,12 @@ body {
 	font-family: serif;
 	line-height: 32px; /* normal / 1.5 multiplied / 3em / 32% / inherit / initial / revert / unset */
 }
+```
+
+# Box
+```css
+.header {
+  border: thick double #32a1ce; /* First value is the thickness, second - style (none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset), and third - color */
+}
+
 ```
