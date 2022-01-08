@@ -122,6 +122,7 @@ body {
 
 .box2 {
 	padding: 1em; /* creates extra space within an element */
+	width: 75%; /* auto / % / length (px/em) / max-content / min-content / fit-content / inherit / initial / revert / unset */
 }
 
 
