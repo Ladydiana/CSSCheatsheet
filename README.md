@@ -118,6 +118,7 @@ body {
 
 .box {
 	margin: 10px 50px 20px 0; /* top right bottom left */ /* creates extra space around an element */
+	max-height: 100px; /* height | min-height*/
 }
 
 .box2 {
