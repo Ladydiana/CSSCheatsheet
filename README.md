@@ -37,6 +37,15 @@ form.text1 {
   margin: 5px;
 }
 
+/* <input> elements with type="text" or "email" */
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+
 /* All <li> elements with a class list that includes both "text1" and "size1" */
 /* For example, class="text1 size1 color1" */
 form.text1.size1 {
