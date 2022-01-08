@@ -94,7 +94,6 @@ h4 {
 
 # Text Styles
 
-###
 ```css
 h1 {
 	text-align: center; /* left / right / center / justify / initial / inherit */
@@ -114,7 +113,16 @@ body {
 # Box
 ```css
 .header {
-  border: thick double #32a1ce; /* First value is the thickness, second - style (none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset), and third - color */
+	border: thick double #32a1ce; /* First value is the thickness, second - style (none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset), and third - color */
 }
+
+.box {
+	margin: 10px 50px 20px 0; /* top right bottom left */ /* creates extra space around an element */
+}
+
+.box2 {
+	padding: 1em; /* creates extra space within an element */
+}
+
 
 ```
