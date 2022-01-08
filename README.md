@@ -152,3 +152,14 @@ img {
   top: 40px; left: 40px;
 }
 ```
+
+# Variables
+```css
+:root {
+  --main-bg-color: pink;
+}
+
+element {
+  background-color: var(--main-bg-color);
+}
+```
