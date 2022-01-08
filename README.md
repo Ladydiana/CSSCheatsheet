@@ -163,3 +163,16 @@ element {
   background-color: var(--main-bg-color);
 }
 ```
+
+# Media Queries
+/* used to conditionally apply styles depending on device */
+```css
+@media (hover: hover) { ... } /* when the primary input can hover */
+@media (max-width: 12450px) { ... } /*  if the browser's viewport width is equal to or narrower than 12450px */
+@media (color) { ... } /* apply to any device with a color screen */
+@media speech and (aspect-ratio: 11/5) { ... } 
+@media (min-width: 30em) and (orientation: landscape) { ... } /* (AND) landscape-oriented devices with a width of at least 30 ems */
+@media (min-height: 680px), screen and (orientation: portrait) { ... } /* (OR)  device has a minimum height of 680px or is a screen device in portrait mode */
+@media not (all and (monochrome)) { ... }
+@media only screen and (color) { ... } /* prevents older browsers that do not support media queries with media features from applying the given styles */
+``` 
