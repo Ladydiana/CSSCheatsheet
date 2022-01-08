@@ -113,12 +113,12 @@ body {
 # Box
 ```css
 .header {
-	border: thick double #32a1ce; /* First value is the thickness, second - style (none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset), and third - color */
+	border: thick double #32a1ce; /* First value is the thickness, second - style (none / hidden / dotted / dashed / solid / double / groove / ridge / inset / outset), and third - color */
 }
 
 .box {
 	margin: 10px 50px 20px 0; /* top right bottom left */ /* creates extra space around an element */
-	max-height: 100px; /* height | min-height*/
+	max-height: 100px; /* height / min-height*/
 }
 
 .box2 {
@@ -140,6 +140,15 @@ ul {
 # Cursor
 ```css
 button:hover {
-	cursor: pointer; /* auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing */
+	cursor: pointer; /* auto / default / none / context-menu / help / pointer / progress / wait / cell / crosshair / text / vertical-text / alias / copy / move / no-drop / not-allowed / e-resize / n-resize / ne-resize / nw-resize / s-resize / se-resize / sw-resize / w-resize / ew-resize / ns-resize / nesw-resize / nwse-resize / col-resize / row-resize / all-scroll / zoom-in / zoom-out / grab / grabbing */
+}
+```
+
+# Layout
+```css
+img {
+  display: block; /* block - invisible line before and after */
+  position: relative; /* static / relative / fixed / absolute / sticky */
+  top: 40px; left: 40px;
 }
 ```
