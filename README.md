@@ -2,6 +2,24 @@
 
 Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
 
+- [Selectors](#selectors)
+    + [Class](#class)
+    + [Element](#element)
+    + [ID](#id)
+    + [Pseudo-class](#pseudo-class)
+- [Colors](#colors)
+    + [Font color](#font-color)
+    + [Background color](#background-color)
+    + [Gradient](#gradient)
+- [Text Styles](#text-styles)
+- [Box](#box)
+- [List](#list)
+- [Cursor](#cursor)
+- [Layout](#layout)
+- [Variables](#variables)
+- [Media Queries](#media-queries)
+
+
 --------------------------------
 
 
