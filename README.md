@@ -100,6 +100,13 @@ h1 {
 	text-align: center; /* left / right / center / justify / initial / inherit */
 	text-transform: uppercase; /* none / capitalize / uppercase/ lowercase / initial / inherit */
 	text-decoration: overline; /* none / underline / line-through / overline / inherit */
+	font-style: oblique 40deg; /* normal / italic / oblique / initial / inherit */
+	font-weight: 700; /* normal / bold / bolder / lighter / initial / inherit / 100 / 200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 */
 }
+
+body {
+	font-size: 12px;
+	font-family: serif;
+	line-height: 32px; /* normal / 1.5 multiplied / 3em / 32% / inherit / initial / revert / unset */
 }
 ```
