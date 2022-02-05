@@ -108,7 +108,7 @@ display:inline
 
 * Inline but allows setting of height and width (unlike display:inline). So we can get "taller words" in the "text line":
 ```css 
-display:inline-block 
+display:inline-block; 
 display:inline-block; height:100px; 
 ```
 * Hides the element, with all its children:
