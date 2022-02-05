@@ -103,7 +103,7 @@ SPANs are like words (take only width necessary, and flow to the next line if th
 ```css 
 display:inline ``` is default style for SPANs 
 
-```css ```
+```css 
 display:inline-block ``` is like inline but allows setting of height and width (unlike display:inline). So we can get “taller words” in the “text line”. 
 Example: 
 ```css display:inline-block; height:100px; ```
