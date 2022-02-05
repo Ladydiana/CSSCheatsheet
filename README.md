@@ -7,6 +7,7 @@ Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
     + [Element](#element)
     + [ID](#id)
     + [Pseudo-class](#pseudo-class)
+- [Precedence Rule](#precedence-rule)
 - [Colors](#colors)
     + [Font color](#font-color)
     + [Background color](#background-color)
@@ -82,6 +83,14 @@ h2 {
 button:hover {
   color: grey;
 }
+```
+
+# Precedence Rule
+```css
+The Cascade: 
+#id				beats 
+.className		beats 
+element (e.g. DIV).
 ```
 
 # Colors
