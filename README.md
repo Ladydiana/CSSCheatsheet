@@ -101,15 +101,24 @@ display:block  is default style for DIV
 ```
 SPANs are like words (take only width necessary, and flow to the next line if there’s no space). 
 ```css 
-display:inline ``` is default style for SPANs 
+display:inline 
+``` is default style for SPANs 
 
 ```css 
-display:inline-block ``` is like inline but allows setting of height and width (unlike display:inline). So we can get “taller words” in the “text line”. 
+display:inline-block 
+``` is like inline but allows setting of height and width (unlike display:inline). So we can get "taller words" in the "text line". 
 Example: 
-```css display:inline-block; height:100px; ```
-```css display:none  ``` hides the element, with all its children
-```css float:left    float:right```  styles are used especially with images to allow them to float at the side while the text flows around them, like in a newspaper (typographic).
+```css 
+display:inline-block; height:100px; 
 ```
+```css 
+display:none  
+``` hides the element, with all its children
+```css 
+float:left    float:right
+```  
+styles are used especially with images to allow them to float at the side while the text flows around them, like in a newspaper (typographic).
+
 
 
 # Colors
