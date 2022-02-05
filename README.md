@@ -100,27 +100,30 @@ DIVs are like paragraphs (take whole width available to them). This is driven by
 display:block  is default style for DIV 
 ```
 SPANs are like words (take only width necessary, and flow to the next line if there’s no space). 
+
+* Default style for SPANs : 
 ```css 
 display:inline 
 ``` 
-is default style for SPANs 
 
+* Inline but allows setting of height and width (unlike display:inline). So we can get "taller words" in the "text line":
 ```css 
 display:inline-block 
 ``` 
-is like inline but allows setting of height and width (unlike display:inline). So we can get "taller words" in the "text line". 
 Example: 
 ```css 
 display:inline-block; height:100px; 
 ```
+* Hides the element, with all its children:
 ```css 
 display:none  
 ``` 
-hides the element, with all its children
+
+* Used especially with images to allow them to float at the side while the text flows around them, like in a newspaper (typographic):
 ```css 
 float:left    float:right
 ```  
-styles are used especially with images to allow them to float at the side while the text flows around them, like in a newspaper (typographic).
+
 
 
 
