@@ -24,6 +24,7 @@ Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
 - [Layout CSS: flexbox](#layout-css-flexbox)
 	+ [Vertical flexbox](#vertical-flexbox)
 	+ [Horizontal flexbox](#horizontal-flexbox)
+	+ [Combined flexbox](#combined-flexbox)
 
 
 --------------------------------
@@ -334,4 +335,54 @@ div{border:1px solid;  text-align:center;}
   margin: 2px; 
   background-color:green; 
 }
+```
+
+### Combined flexbox
+
+```html
+<html>
+<body>  
+  <div class="borderLayout">
+        <div class="topRow">up</div>
+        <div class="middleRow">
+                <div class="middleLeft">left</div>
+                <div class="middleMain">
+                    this is the middle column
+                </div>
+                <div class="middleRight">right</div>
+        </div>
+        <div class="bottomRow">down</div>
+   </div>
+
+</body>
+</html>
+
+```
+```css
+html{height:100%}
+body{height:100%;margin:0}
+div{border:1px solid;text-align:center;}
+
+.borderLayout{
+  display:flex;
+  flex-direction:column; 
+  height:100%;
+}
+
+.topRow{flex:0}
+.middleRow{
+  flex:1;
+  display:flex;  
+  flex-direction:row;
+  height:100%;
+  background-color:red;
+}
+.bottomRow{flex:0}
+
+.middleLeft{flex:0}
+.middleMain{
+  flex:1; 
+  margin: 2px; background-color:green;
+}
+.middleRight{flex:0}
 ```
