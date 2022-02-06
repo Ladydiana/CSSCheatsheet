@@ -250,4 +250,11 @@ React accepts both class and className but recommends className and warns exactl
 
 Inline styles (which are discouraged because they cannot be reused, like classes can) cannot be strings in React. 
 
-For example instead of style="float:right;width=50%"  you need to write the general form, also accepted by Vue:     style={{float:"left", width:"50%"}}.
+For example instead of 
+```css
+style="float:right;width=50%"  
+```
+you need to write the general form, also accepted by Vue:     
+```css
+style={{float:"left", width:"50%"}}
+```
