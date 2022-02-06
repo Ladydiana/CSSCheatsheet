@@ -21,6 +21,8 @@ Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
 - [Variables](#variables)
 - [Media Queries](#media-queries)
 - [CSS in JSX](#css-in-jsx)
+- [Layout CSS: flexbox](#layout-css-flexbox)
+	+ [Vertical flexbox](#vertical-flexbox)
 
 
 --------------------------------
@@ -257,4 +259,39 @@ style="float:right;width=50%"
 you need to write the general form, also accepted by Vue:     
 ```css
 style={{float:"left", width:"50%"}}
+```
+
+# Layout CSS: flexbox
+
+### Vertical flexbox
+
+```html
+<html >
+<body>  
+  <div class="verticalFlexParent">
+        <div class="topFlexChild">up</div>
+        <div class="middleFlexChild">
+             this is the middle row
+        </div>
+        <div class="bottomFlexChild">down</div>
+   </div>
+</body>
+</html>
+```
+```css
+html{height:100%}
+body{height:100%;margin:0}
+div{border:1px solid;text-align:center;}
+
+.verticalFlexParent{
+    display:flex;
+    flex-direction:column; 
+    height:100%;
+}
+.topFlexChild{flex:0.1}
+.middleFlexChild{
+  flex:0.8;
+  background-color:red;
+}
+.bottomFlexChild{flex:0.1}
 ```
