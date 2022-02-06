@@ -23,6 +23,7 @@ Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
 - [CSS in JSX](#css-in-jsx)
 - [Layout CSS: flexbox](#layout-css-flexbox)
 	+ [Vertical flexbox](#vertical-flexbox)
+	+ [Horizontal flexbox](#horizontal-flexbox)
 
 
 --------------------------------
@@ -294,4 +295,43 @@ div{border:1px solid;text-align:center;}
   background-color:red;
 }
 .bottomFlexChild{flex:0.1}
+```
+
+### Horizontal flexbox
+
+```html
+<html>
+<body>
+  <div class="horizontalFlexParent">
+          <div class="leftSidePart">left</div>
+          <div class="middlePart">
+          this is the middle column
+          </div>
+          <div class="rightSidePart">right</div>
+  </div>                                      
+</body>
+</html>
+```
+```css
+html{height:100%}
+body{height:100%;   margin:0;}
+div{border:1px solid;  text-align:center;}
+
+.horizontalFlexParent{
+  display:flex;  
+  flex-direction:row;
+  height:100%
+}
+  
+.leftSidePart{
+  flex:0.1;
+}
+.rightSidePart{
+  flex:0.1
+}
+.middlePart{
+  flex:0.8; 
+  margin: 2px; 
+  background-color:green; 
+}
 ```
