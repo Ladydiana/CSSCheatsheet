@@ -8,7 +8,7 @@ Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
     + [ID](#id)
     + [Pseudo-class](#pseudo-class)
 - [Precedence Rule](#precedence-rule)
-- [Typographic HTML/CSS](#typographic-HTML--CSS)
+- [Typographic HTML/CSS](#typographic-htmlcss)
 - [Colors](#colors)
     + [Font color](#font-color)
     + [Background color](#background-color)
@@ -20,6 +20,7 @@ Useful: https://developer.mozilla.org/en-US/docs/Web/CSS
 - [Layout](#layout)
 - [Variables](#variables)
 - [Media Queries](#media-queries)
+- [CSS in JSX](#css-in-jsx)
 
 
 --------------------------------
@@ -120,9 +121,6 @@ display:none
 ```css 
 float:left    float:right
 ```  
-
-
-
 
 # Colors
 
@@ -242,4 +240,14 @@ element {
 @media (min-height: 680px), screen and (orientation: portrait) { ... } /* (OR)  device has a minimum height of 680px or is a screen device in portrait mode */
 @media not (all and (monochrome)) { ... }
 @media only screen and (color) { ... } /* prevents older browsers that do not support media queries with media features from applying the given styles */
+```
+
+# CSS in JSX
+```css
+class="class1 class2 class3" 
 ``` 
+React accepts both class and className but recommends className and warns exactly once about class.
+
+Inline styles (which are discouraged because they cannot be reused, like classes can) cannot be strings in React. 
+
+For example instead of style="float:right;width=50%"  you need to write the general form, also accepted by Vue:     style={{float:"left", width:"50%"}}.
