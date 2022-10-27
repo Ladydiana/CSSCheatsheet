@@ -386,3 +386,7 @@ div{border:1px solid;text-align:center;}
 }
 .middleRight{flex:0}
 ```
+
+
+---
+<a href="https://www.buymeacoffee.com/Ladyd1ana" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="If you enjoy my projects, please consider buying me a coffee" height="41" width="174"></a>
